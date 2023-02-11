@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         foodList = ArrayList()
 
 
-        for (i in 0..6){
+
 
             foodList.add(Food(R.drawable.paneer_butter_masala , name = "Paneer masala"))
             foodList.add(Food(R.drawable.pizza , name = "Pizza"))
@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
             foodList.add(Food(R.drawable.pasta , name = "Pasta"))
             foodList.add(Food(R.drawable.noodles, name = "Noodles"))
 
-        }
+
 
 
 
